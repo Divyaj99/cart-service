@@ -14,7 +14,6 @@ public class Cart {
     @Id
     @GeneratedValue
     private Long id;
-
     private LocalDate date;
     private String name;
     private Long itemId;
