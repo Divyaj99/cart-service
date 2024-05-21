@@ -31,6 +31,5 @@ public class CartServiceImpl implements CartService {
                 .price(cart.getPrice()).build();
         return response;*/
         return cartRepo.save(cartRequest);
-
     }
 }
